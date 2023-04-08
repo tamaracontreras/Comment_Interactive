@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./Styles/style.css">
+  <title>Frontend Mentor | Interactive comments section</title>
+ 
+</head>
+<body>
+
+  <div class="wrapper">
+    <main>
+      <div class="comment__container">
+        <!-- PRIMERA CARD -->
+        <div class="comment__card">
+          <div class="comment__counter counter">
+            <div class="counter__plus">
+            <img src="./images/icon-plus.svg" alt="plus">
+            </div>
+            <div class="counter__value">12</div>
+            <div class="counter__minus">
+              <img src="./images/icon-minus.svg" alt="minus">
+              </div>
+          </div>
+          <!-- CUERPO DE LA CARD -->
+          <div class="comment__main">
+            <!-- PRIMERA FILA  -->
+            <div class="comment__header header">
+              <div class="header__user user">
+                <div class="user__avatar">
+                  <img src="./images/avatars/image-amyrobson.webp" alt="avatar">
+                </div>
+                <div class="user__name"><a href="#" class="id">amiadsd</a></div>
+                <div class="user__time">1 month ago</div>
+              </div>
+             <div class="header__reply"><img src="./images/icon-reply.svg" alt="Reply"> Reply</div>
+            </div><!-- FIN PRIMERA FILA -->
+
+
+            
+            <!-- COMIENZO SEGUNDA FILA, TEXTO COMENTARIO -->
+
+            <div class="comment__text">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente exercitationem veniam cum ipsum. Quas at iure, temporibus, maiores voluptatum dolore doloremque molestias deserunt eius, id aspernatur cumque quia molestiae labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comment__container">
+        <!-- SEGUNDA CARD -->
+        <div class="comment__card">
+          <div class="comment__counter counter">
+            <div class="counter__plus">
+            <img src="./images/icon-plus.svg" alt="plus">
+            </div>
+            <div class="counter__value">5</div>
+            <div class="counter__minus">
+              <img src="./images/icon-minus.svg" alt="minus">
+              </div>
+          </div>
+          <!-- CUERPO DE LA CARD -->
+          <div class="comment__main">
+            <!-- PRIMERA FILA  -->
+            <div class="comment__header header">
+              <div class="header__user user">
+                <div class="user__avatar">
+                  <img src="./images/avatars/image-maxblagun.webp" alt="avatar">
+                </div>
+                <div class="user__name"><a href="#" class="id">maxblagun</a></div>
+                <div class="user__time">2 weeks a go</div>
+              </div>
+             <div class="header__reply"><img src="./images/icon-reply.svg" alt="Reply"> Reply</div>
+            </div><!-- FIN PRIMERA FILA -->
+
+
+            
+            <!-- COMIENZO SEGUNDA FILA, TEXTO COMENTARIO -->
+
+            <div class="comment__text">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente exercitationem veniam cum ipsum. Quas at iure, temporibus, maiores voluptatum dolore doloremque molestias deserunt eius, id aspernatur cumque quia molestiae labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comment__container comment__container-reply">
+        <div class="comment__card">
+          <div class="comment__counter counter">
+            <div class="counter__plus">
+            <img src="./images/icon-plus.svg" alt="plus">
+            </div>
+            <div class="counter__value">12</div>
+            <div class="counter__minus">
+              <img src="./images/icon-minus.svg" alt="minus">
+              </div>
+          </div>
+          <div class="comment__main">
+            <div class="comment__header header">
+              <div class="header__user user">
+                <div class="user__avatar">
+                  <img src="./images/avatars/image-ramsesmiron.webp" alt="avatar">
+                </div>
+                <div class="user__name"><a href="#" class="id">ramsesmiron</a></div>
+                <div class="user__time">1 month ago</div>
+              </div>
+             <div class="header__reply"><img src="./images/icon-reply.svg" alt="Reply"> Reply</div>
+            </div>
+            <div class="comment__text">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente exercitationem veniam cum ipsum. Quas at iure, temporibus, maiores voluptatum dolore doloremque molestias deserunt eius, id aspernatur cumque quia molestiae labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comment__container comment__container-reply current__user">
+        <div class="comment__card">
+          <div class="comment__counter counter">
+            <div class="counter__plus">
+            <img src="./images/icon-plus.svg" alt="plus">
+            </div>
+            <div class="counter__value">12</div>
+            <div class="counter__minus">
+              <img src="./images/icon-minus.svg" alt="minus">
+              </div>
+          </div>
+          <div class="comment__main">
+            <div class="comment__header header">
+              <div class="header__user user">
+                <div class="user__avatar">
+                  <img src="./images/avatars/image-juliusomo.webp" alt="avatar">
+                </div>
+                <div class="user__name"><a href="#" class="id">juliosomo</a></div>
+                <div class="user__marker">you</div>
+                <div class="user__time">2 days ago</div>
+              </div>
+              <div class="user__action">
+                <div class="header__delete"><img src="./images/icon-delete.svg" alt="Reply"> Delete</div>
+                <div class="header__update"><img src="./images/icon-edit.svg" alt="Reply"> Edit</div>
+              </div>
+             
+            </div>
+            <div class="comment__text">
+              <span class="blue">@ramsesmiron</span>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente exercitationem veniam cum ipsum. Quas at iure, temporibus, maiores voluptatum dolore doloremque molestias deserunt eius, id aspernatur cumque quia molestiae labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+    </main>
+    <!-- CONTENEDOR DE AGREGARCOMENTARIO -->
+    <div class="comment__add add">
+      <div class="add__container">
+        <div class="add__avatar">
+          <img src="./images/avatars/image-juliusomo.webp" alt="">
+        </div>
+        <textarea type="text" placeholder="Add a comment..." class="comment__input"></textarea>
+        <button class="comment__send">Send</button>
+      </div>
+    </div>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <div class="popup__content">
+        <h2 class="popup__title">Delete comment</h2>
+        <p class="popup__subtitle">
+          ¿Seguro que quieres eliminar este comentario? esto se eliminará, el comentario agregado no se puede deshacer.
+        </p>
+        <div class="popup__btns">
+          <button class="popup__cancel">no, cancel</button>
+          <button class="popup__delete">yes, delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+
+<script src="./src/script.js"></script>
+
+</html>
+  <!-- Pull dynamic content from the data.json file -->
+  
+  
